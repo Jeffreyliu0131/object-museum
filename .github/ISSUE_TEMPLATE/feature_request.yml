@@ -1,0 +1,62 @@
+name: Feature request
+description: Propose a scoped improvement using synthetic scenarios only
+title: "[Feature]: "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Privacy and evidence boundary
+        **Do not submit real family, household, personal, confidential, or identifying data.** Do not attach real names, faces, voices, stories, contact details, locations, credentials, private documents, research records, or unsanitized media. Describe the need with invented people and synthetic examples only. A feature request is a proposal, not evidence of user demand. Report security vulnerabilities privately through GitHub Security Advisories, not this form.
+  - type: checkboxes
+    id: privacy-confirmation
+    attributes:
+      label: Required privacy confirmation
+      options:
+        - label: I confirm this request and every attachment contain only synthetic, non-identifying data and no real family, personal, confidential, or private material.
+          required: true
+        - label: I have not presented assumptions or agent-authored material as validated user evidence.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: Describe the problem with an invented scenario and identify whether it is a fact, inference, assumption, gap, or validation target.
+      placeholder: "Assumption: a synthetic narrator needs..."
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the user-visible outcome without prescribing unnecessary implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Optional. Explain the smallest useful change and alternatives considered.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and uncertainty
+      description: Link primary evidence when available. Otherwise state the assumption and how it could be validated.
+      placeholder: Source, evidence grade, key uncertainty, and validation target.
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Privacy, provenance, accessibility, and failure risks
+      description: Include correction, deletion, portability, consent, source attribution, and degraded behavior where relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance signals
+      description: State observable success and important bad cases.
+    validations:
+      required: true

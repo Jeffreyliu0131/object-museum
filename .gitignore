@@ -1,0 +1,34 @@
+# Dependencies and generated output
+node_modules/
+dist/
+coverage/
+reports/
+test-results/
+*.tsbuildinfo
+.vite/
+
+# Local configuration and logs
+.env
+.env.*
+!.env.example
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+.idea/
+.vscode/
+
+# Private project governance and raw review evidence
+AGENTS.md
+PRODUCT_BRIEF.md
+ASSUMPTIONS.md
+RISKS.md
+STATUS.md
+DECISIONS.md
+FIXTURES_AND_LICENSES.md
+docs/
+artifacts/
+spikes/
+.agents/
+.codex/

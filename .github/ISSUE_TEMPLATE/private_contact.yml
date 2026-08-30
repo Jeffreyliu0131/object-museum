@@ -1,0 +1,21 @@
+name: Request a private maintainer contact
+description: Ask for a private reporting route without disclosing any incident or vulnerability details
+title: "[Private contact request]"
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue is public. Use it only to ask a maintainer to provide or enable a private reporting route. **Do not describe a conduct incident, vulnerability, affected person, exploit, or private data here.** Do not attach files, screenshots, logs, names, faces, voices, stories, contact details, locations, credentials, or other real family/personal/confidential material.
+  - type: checkboxes
+    id: safety-confirmation
+    attributes:
+      label: Required public-data confirmation
+      options:
+        - label: I have included no incident, vulnerability, exploit, or affected-person details in this public request.
+          required: true
+        - label: I have included no real family, personal, confidential, identifying, or private data and no attachments.
+          required: true
+        - label: I am asking only for a maintainer to provide or enable a private reporting route.
+          required: true

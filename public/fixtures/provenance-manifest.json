@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "scope": "Object Museum local portfolio prototype synthetic fixtures",
+  "privacyNotice": "These files are synthetic project fixtures. They contain no real family material, private-person reference media, or real-person narration.",
+  "license": "CC0-1.0",
+  "rightsNotice": "The three AI-generated images and their synthetic stories and metadata are offered under CC0-1.0 to the extent copyright or related rights exist and the contributor has authority to waive them. AI-generated output may be non-unique and may not qualify for copyright in every jurisdiction.",
+  "media": [
+    {
+      "path": "/fixtures/cobalt-mug.jpg",
+      "sha256": "4c352d586077025944d0e8ab48712795277aa52b37531509e3b8674c64ac7d6d",
+      "mimeType": "image/jpeg",
+      "bytes": 107037,
+      "sourceKind": "imagegen_synthetic",
+      "generation": "Generated during this project with OpenAI image generation from a text-only synthetic object prompt, with no reference image, real person, or real family object; then converted to a 960 px JPEG.",
+      "ownership": "Project-created synthetic media with no asserted connection to a real object or person.",
+      "aiDisclosure": "AI-generated from a text-only prompt. Output may be non-unique and may not qualify for copyright protection in every jurisdiction.",
+      "license": "CC0-1.0",
+      "allowedUse": [
+        "copy, modify, distribute, and use for any purpose under CC0-1.0"
+      ]
+    },
+    {
+      "path": "/fixtures/red-camera.jpg",
+      "sha256": "b2ed9e70ba36dfe6c5772d226c2674ea38405885ba86d883f4fd1215491be40d",
+      "mimeType": "image/jpeg",
+      "bytes": 82132,
+      "sourceKind": "imagegen_synthetic",
+      "generation": "Generated during this project with OpenAI image generation from a text-only synthetic object prompt, with no reference image, real person, or real family object; then converted to a 960 px JPEG.",
+      "ownership": "Project-created synthetic media with no asserted connection to a real object or person.",
+      "aiDisclosure": "AI-generated from a text-only prompt. Output may be non-unique and may not qualify for copyright protection in every jurisdiction.",
+      "license": "CC0-1.0",
+      "allowedUse": [
+        "copy, modify, distribute, and use for any purpose under CC0-1.0"
+      ]
+    },
+    {
+      "path": "/fixtures/sea-glass-brooch.jpg",
+      "sha256": "1839086578597aaa2618a4f6a13b14648800e6749fdc78f3857eb90350d3cae8",
+      "mimeType": "image/jpeg",
+      "bytes": 107043,
+      "sourceKind": "imagegen_synthetic",
+      "generation": "Generated during this project with OpenAI image generation from a text-only synthetic object prompt, with no reference image, real person, or real family object; then converted to a 960 px JPEG.",
+      "ownership": "Project-created synthetic media with no asserted connection to a real object or person.",
+      "aiDisclosure": "AI-generated from a text-only prompt. Output may be non-unique and may not qualify for copyright protection in every jurisdiction.",
+      "license": "CC0-1.0",
+      "allowedUse": [
+        "copy, modify, distribute, and use for any purpose under CC0-1.0"
+      ]
+    }
+  ]
+}

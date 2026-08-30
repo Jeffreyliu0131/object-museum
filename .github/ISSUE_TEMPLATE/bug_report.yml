@@ -1,0 +1,76 @@
+name: Bug report
+description: Report a reproducible problem using synthetic data only
+title: "[Bug]: "
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Privacy boundary
+        **Do not submit real family, household, personal, confidential, or identifying data.** Do not attach real names, faces, voices, stories, contact details, locations, credentials, private documents, database contents, or unsanitized logs. Use invented text and repository synthetic fixtures only. Security vulnerabilities belong in a private GitHub Security Advisory, not this form.
+  - type: checkboxes
+    id: privacy-confirmation
+    attributes:
+      label: Required privacy confirmation
+      options:
+        - label: I confirm this report and every attachment contain only synthetic, non-identifying data and no real family, personal, confidential, or private material.
+          required: true
+        - label: I confirm this is not a security vulnerability.
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: State the observed problem without including private data.
+      placeholder: A concise description of the defect.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: Use repository fixtures or invented placeholder values.
+      placeholder: |
+        1. Start from...
+        2. Select...
+        3. Observe...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Commit or version
+      description: Provide a commit SHA or package version when known.
+      placeholder: 0.1.0 or commit SHA
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser version, operating system, Node.js version, and npm version.
+      placeholder: Firefox 142, macOS 15, Node 22, npm 10
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Sanitized diagnostics
+      description: Optional. Remove identifiers, file paths, tokens, content, and metadata before pasting logs or adding screenshots.
+      render: shell
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional synthetic context
+      description: Optional context that does not contain real or private data.

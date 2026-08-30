@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/Jeffreyliu0131/object-museum/security/advisories/new
+    about: Use GitHub Security Advisories for private vulnerability reports.
+  - name: Read the support policy
+    url: https://github.com/Jeffreyliu0131/object-museum/blob/HEAD/SUPPORT.md
+    about: Check scope, support expectations, and the synthetic-data-only boundary.
