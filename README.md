@@ -44,6 +44,8 @@ npm run build
 
 CI runs this full sequence on Node.js 22. The test suite covers domain invariants, storage/CAS behavior, media validation, React integration, keyboard paths, automated accessibility checks, and scope/security constraints. Repository-native Playwright/Cypress browser E2E is not included; the remaining manual browser acceptance gap is documented in [REVIEW.md](REVIEW.md) and [EXPERIENCE_ACCEPTANCE.md](EXPERIENCE_ACCEPTANCE.md).
 
+Dependency maintenance (2026-09-21): keep TypeScript on the compatible 6.0 line while `typescript-eslint` declares support below 6.1. TypeScript 7 updates are deferred in Dependabot until that peer dependency changes; force-installing an unsupported compiler is not a valid CI fix. Vitest and its companion packages are grouped so their required matching versions update together.
+
 ## Scope boundaries
 
 There is no share/public exhibit route, recipient view, second narrator, account, sync, backup/restore, export, timeline, 3D reconstruction, ASR, translation, model-generated prose, deployment configuration, or production privacy claim.

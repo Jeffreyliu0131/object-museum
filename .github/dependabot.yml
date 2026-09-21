@@ -8,6 +8,14 @@ updates:
       time: "09:00"
       timezone: Asia/Singapore
     open-pull-requests-limit: 5
+    # typescript-eslint currently supports TypeScript <6.1.0.
+    # Revisit when the parser declares TypeScript 7 compatibility.
+    ignore:
+      - dependency-name: typescript
+        versions: [">=7.0.0 <8.0.0"]
+    groups:
+      vitest:
+        patterns: ["vitest", "@vitest/*"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
